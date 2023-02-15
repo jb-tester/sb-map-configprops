@@ -1,0 +1,16 @@
+management:
+  server.port: 8282
+  endpoint.health.group.liveness.include: livenessState
+demo:
+  map:
+    props:
+      one:
+        foo:
+          foobar: value1
+          foo.buzz: value2
+        bar:
+          dummy: value3
+      another:
+        key1:
+          subkey1: false
+          subkey2: true
