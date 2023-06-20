@@ -14,3 +14,8 @@ demo:
         key1:
           subkey1: false
           subkey2: true
+      third:
+        key1.key2:
+          subkey1.subkey2:
+            - foo
+            - bar
