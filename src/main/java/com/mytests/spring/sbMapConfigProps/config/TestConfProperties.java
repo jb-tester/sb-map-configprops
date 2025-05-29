@@ -1,7 +1,6 @@
 package com.mytests.spring.sbMapConfigProps.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.context.properties.bind.Nested;
 import org.springframework.stereotype.Component;
 
 import java.util.Map;
