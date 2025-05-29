@@ -10,6 +10,8 @@ import java.util.Map;
 @Component
 public class MoreDemoProperties {
 
+    private String strProp;
+    private int numProp;
   /**
    *  property of MyPOJO type.
    *  MyPOJO has three properties:
@@ -20,6 +22,22 @@ public class MoreDemoProperties {
     private MyPOJO myPOJO;
 
     private Map<String, ? extends MyPOJO> strPojoMap;
+
+    public String getStrProp() {
+        return strProp;
+    }
+
+    public void setStrProp(String strProp) {
+        this.strProp = strProp;
+    }
+
+    public int getNumProp() {
+        return numProp;
+    }
+
+    public void setNumProp(int numProp) {
+        this.numProp = numProp;
+    }
 
     public MyPOJO getMyPOJO() {
         return myPOJO;
@@ -32,7 +50,13 @@ public class MoreDemoProperties {
     public Map<String, ? extends MyPOJO> getStrPojoMap() {
         return strPojoMap;
     }
-
+    /**
+     *  property of Map<String,MyPOJO> type.
+     *  MyPOJO has three properties:
+     * - strProp, which is of type String
+     * - numProp, which is of type int
+     * - mapProp, which is of type Map<String, ? extends MyPOJO>
+     */
     public void setStrPojoMap(Map<String, ? extends MyPOJO> strPojoMap) {
         this.strPojoMap = strPojoMap;
     }
