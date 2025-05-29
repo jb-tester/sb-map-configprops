@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Map;
 
+// Use to test LogicalStructure for Map and POJO properties
 @Component
 @ConfigurationProperties(prefix = "custom.config")
 public class TestConfProperties {
