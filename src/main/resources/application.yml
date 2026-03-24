@@ -19,3 +19,31 @@ demo:
           subkey1.subkey2:
             - foo
             - bar
+my:
+  new:
+    props:
+      pojo-map:
+        pojo-key1:
+          string-set:
+            - pojo set value1_1
+            - pojo set value1_2
+            - pojo set value1_3
+          string-map:
+            key1: pojo map value1_1
+            key2: pojo map value1_2
+        pojo-key2:
+          string-set:
+            - pojo set value2_1
+            - pojo set value2_2
+            - pojo set value2_3
+          string-map:
+            key1: pojo map value2_1
+            key2: pojo map value2_2
+      string-list-map:
+        key1:
+          - value11
+          - value12
+          - value13
+        key2:
+          - value24
+          - value25
